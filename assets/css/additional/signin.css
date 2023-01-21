@@ -1,0 +1,290 @@
+@font-face {
+        font-family: "welcomeFont";
+        src: url(../../fonts/sao/SAOWelcomeTT-Regular.ttf) format("truetype");
+    }
+
+body {
+  padding-top: 50px;
+  background-image: url('../../img/login.jpg');
+
+  background-repeat:no-repeat;
+  background-size:1560px 1000px;
+  height: 100%;
+  width: 100%;
+  font-family: "welcomeFont";
+}
+
+.form-signin {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-head, .form-bottom{
+  background: rgba(211, 211, 211,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.form-head{
+  z-index: 1000;
+  float: left;
+  width: 100%;
+  box-shadow: 0px 10px 30px rgba(40,40,40, 0.5); 
+}
+
+.form-bottom{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 90px;
+  padding-right: 90px;
+  box-shadow: 0px -10px 30px rgba(40,40,40, 0.5);
+}
+
+.form-body{
+  width: 100%;
+  background-color: rgba(164, 165, 165, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  margin-top: 100px;
+  box-shadow: 1px 1px 30px rgba(40,40,40, 0.5);
+}
+
+form label {
+  color: #606060;
+}
+
+.form-text{
+  background-color: transparent;
+  border: 2px solid #606060;
+  color: #444;
+  width: 76%;
+  height: 32px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  font-size: 38px;
+  color: #686667;
+}
+
+.form-signin-heading:hover{
+  cursor: pointer;
+  color: #474747;
+  transition: 0.4s;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#loadingAnimation{
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+
+
+/*----------------------------------------------------------------------------------------------Using this for Buttons BEGIN ----------------------------*/
+
+.SAOOuterCircle.plus {
+    background-image: url('C:/ExameDev-CGM/Issue3/assets/img/AddCharacter.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+
+    margin-right: 50px;
+    
+    cursor: pointer;
+    float: right;
+
+}
+
+.SAOOuterCircle.clear {
+    background-image: url('C:/ExameDev-CGM/Issue3/assets/img/ClearData.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+   
+    margin-right: 50px;
+    
+    cursor: pointer;
+    float: right;
+
+}
+
+
+.SAOOuterCircle.o {
+    background-image: url('C:/ExameDev-CGM/Issue3/assets/img/yes.svg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    
+    cursor: pointer;
+    float: left;
+
+}
+
+.SAOOuterCircle.x {
+    background-image: url('C:/ExameDev-CGM/Issue3/assets/img/no.svg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+
+    cursor: pointer;
+    float: right;
+
+}
+
+.SAOOuterCircle.info {
+    border-color: #3577B3;
+}
+
+.SAOOuterCircle.danger {
+    border-color: #D23C69;
+}
+
+
+.SAOOuterCircle.plus:hover {
+  background-image: url('C:/ExameDev-CGM/Issue3/assets/img/AddCharacter_on.png');
+}
+
+.SAOOuterCircle.clear:hover {
+  background-image: url('C:/ExameDev-CGM/Issue3/assets/img/ClearData_on.png');
+}
+
+.SAOOuterCircle.o:hover {
+  background-image: url('C:/ExameDev-CGM/Issue3/assets/img/yes_on.svg');
+}
+
+.SAOOuterCircle.x:hover{
+  background-image: url('C:/ExameDev-CGM/Issue3/assets/img/no_on.svg');
+}
+
+
+/*------------------------------------------------------------------------------------------------Using this for Buttons END ----------------------------*/
+
+
+.button {
+  border-radius: 100%;
+  height: 50px;
+  margin-top: 4px;
+  outline: none !important;
+  width: 50px;
+  background-color: transparent;
+  
+  cursor: pointer;
+  
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  flex: 1;
+  align-self:center;
+  cursor: pointer;
+  
+
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.btn-left{
+  float: left;
+  border: 4px solid rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 0px 3px #446348;
+  background: linear-gradient(#14942a, #0d5b19); 
+}
+
+.btn-right{
+  float: right;
+  border: 4px solid rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 0px 3px #89484b;
+  background: linear-gradient(#d72723,#951714);
+}
+
+.btn-right:hover{
+  transition: 0.5s;
+  background: linear-gradient(#dd231c,#c9201a);
+  box-shadow: 0px 0px 0px 3px #9b1914;
+}
+
+.btn-left:hover{
+  transition: 0.5s;
+  background: linear-gradient(#1acc39,#138c26);
+  box-shadow: 0px 0px 0px 3px #14942a;
+}
+
+.btn-left i{
+  color: #fff;
+  margin-left: -4px;
+}
+
+
+.btn-right i{
+  color: #fff;
+  font-weight: lighter;
+  margin-left: -2px;
+}

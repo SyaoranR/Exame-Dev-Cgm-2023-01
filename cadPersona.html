@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Prototype of Sword Art Online bootstrap theme | By Axel TJs">
+	<meta name="author" content="Axel TJs">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="experiments.css" >
+
+    <link href="assets/css/additional/signin.css" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/fa/font-awesome.min.css">
+	<title>Welcome</title>
+	<style type="text/css">
+	</style>
+
+    <script type="text/javascript" src="Issue3.js"></script>
+</head>
+<body>
+	 <div class="container">
+
+      <form action="Issue3.html" method="post" class="form-signin" id="freedom">
+      	<div class="form-head">  		
+	        <h1 class="form-signin-heading"><center>Cadastro do Aluno</center></h2>
+      	</div>
+        <div class="form-body">
+        	<div class="form-group form-inline">
+	        	<label for="name"><h2>Nome:</h2></label>
+	        	<input type="text" id="nome" class="form-text" required autofocus>
+	        </div>
+	        <div class="form-group form-inline">
+	        	<label for="name"><h2>Idade:</h2></label>
+	        	<input type="text" id="idade" class="form-text" required autofocus>
+	        </div>
+            <div class="form-group form-inline">
+                <label for="name"><h2>Email:</h2></label>
+                <input type="text" id="email" class="form-text" required autofocus>
+            </div>
+            <div class="form-group form-inline">
+                <label for="name"><h2>Telefone:</h2></label>
+                <input type="text" id="tel" class="form-text" required autofocus>
+            </div>
+            <div class="form-group form-inline">
+                <label for="name"><h2>Endereço:</h2></label>
+                <input type="text" id="endereco" class="form-text" required autofocus>
+            </div>
+            <div class="form-group form-inline">
+                <label for="name"><h2>CEP:</h2></label>
+                <div>
+                <input type="text" id="cep" class="form-text" required autofocus>
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="name"><h2>Adicionar Personagem</h2></label>
+                <div class="SAOOuterCircle plus">
+                <button onclick="addDados();" style="border: none; background: none; height: 64px; width: 64px;">
+                                    <!--<button type="button" class="btn btn-sao bg-info" id="SAOModalAccept">
+                                        <div class="SAOInnerIcon o circle"></div>
+                                    </button>-->
+                </button>
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="name"><h2>Limpar Dados da Tabela</h2></label>
+                <div class="SAOOuterCircle clear">
+                <button type="reset" onclick="delDados();" style="border: none; background: none; height: 64px; width: 64px;">
+                                    <!--<button type="button" class="btn btn-sao bg-info" id="SAOModalAccept">
+                                        <div class="SAOInnerIcon o circle"></div>
+                                    </button>-->
+                </button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="form-bottom">            
+        	<div class="clearfix">           
+
+                <div class="SAOOuterCircle o">
+                <button type="submit" onclick="addDados();" style="float: left; border: none; background: none; height: 64px; width: 64px;"> 
+                                    <!--<button type="button" class="btn btn-sao bg-info" id="SAOModalAccept">
+                                        <div class="SAOInnerIcon o circle"></div>
+                
+                                    </button>-->
+                </button>
+                </div>
+
+	        	<div class="SAOOuterCircle x">
+                <button type="reset" style="float: right; border: none; background: none; height: 64px; width: 64px;">
+                                    <!--<button type="button" class="btn btn-sao bg-danger" id="SAOModalDeny">
+                                        <div class="SAOInnerIcon x">
+                                            
+                                        </div>
+                                    </button>-->
+                </button>
+        	    </div>
+        
+        <audio id="saoMenuSelectAudio">
+            <source src="sound/sao_menu_select.wav">
+        </audio>
+
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+    <div class="modal fade" id="myModal">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-body">
+	    			<center>
+    					<img src="assets/img/Screen_Shot_2017_08_03_at_11.07.01_AM.0.png" width="500" height="500">	
+	    			</center>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+</html>

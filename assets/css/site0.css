@@ -1,0 +1,77 @@
+
+/* By: Alessandro Fraga Gomes */
+
+body {
+  padding-top: 50px; 
+  /*padding-top: 6.25%; */
+  background-image: url('../img/Alfheim.jpg');
+
+  background-repeat:no-repeat;
+  background-size:1200px 800px; 
+  /* background-size:100%; */
+  height: 100%;
+  width: 100%;
+}
+
+#freedom {
+    font-family: saoui-regular;
+    src: url('../fonts/SAOUI-Regular.otf');
+    border-collapse: collapse;
+    width: 50%;        
+   /* margin-top: 37.5%;
+    margin-left: 8.33%; */
+}
+
+#freedom td, #freedom th {
+    border: 0 solid #ddd;
+    padding: 9px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#freedom tr {background-color: #ddd;}
+
+#freedom tr:hover {background-color: #59b539;}
+
+#freedom th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3577B3;
+    border-color: #3577B3;
+    color: white;    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+   /* overflow: hidden; */
+   /* background-color: #298A08; */
+    border-radius: 5px;    
+}
+li {
+    float: left;
+  }
+
+li {
+    border-right:0.2em solid #bbb;
+    border-radius: 3px;    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 18px 16px;
+    text-decoration: none;
+    color: yellow;    
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #000000;
+}
