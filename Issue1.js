@@ -1,3 +1,4 @@
+/* Nome: Alessandro Fraga Gomes */
 /* Q.1 Crie calculadora para pegar o valor dos três lados de um triângulo e informar se o triangulo é equilatero, isósceles ou escaleno. */
 
 // Selecting screen elements
