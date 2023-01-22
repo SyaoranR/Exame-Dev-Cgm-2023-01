@@ -1,3 +1,4 @@
+/* Nome: Alessandro Fraga Gomes */
 /* Q.2 - Escreva um código que tenha como retorno a sequência de fibonacci a partir de um valor determinado pelo usuário e exiba esse valor em HTML. */
 
 // Selecting screen elements
