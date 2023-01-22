@@ -1,3 +1,4 @@
+/* Nome: Alessandro Fraga Gomes */
 var vet = new Array();
 
 function addDados(){
